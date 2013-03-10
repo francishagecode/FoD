@@ -26,8 +26,4 @@ public class BlockCorruptedStone extends Block {
 	{
 		return Skyr.corruptedStoneSeed.itemID;
 	}
-	
-	public String getTextureFile(){
-		return SkyrRef.block;
-	}
 }

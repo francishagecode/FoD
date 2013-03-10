@@ -28,10 +28,6 @@ public class BlockLuxillianTorch extends Block
         this.setTickRandomly(true);
         this.setRequiresSelfNotify();
     }
-    
-	public String getTextureFile(){
-		return SkyrRef.item;
-	}
 
     /**
      * Returns a bounding box from the pool of bounding boxes (this means this box can change after the pool has been

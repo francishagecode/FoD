@@ -23,10 +23,6 @@ public class BlockOres extends BlockStone
 		return this.blockID;
 	}
 	
-	public String getTextureFile(){
-		return SkyrRef.block;
-	}
-	
 	public void dropBlockAsItemWithChance(World par1World, int par2, int par3, int par4, int par5, float par6, int par7)
 	{
 		super.dropBlockAsItemWithChance(par1World, par2, par3, par4, par5, par6, par7);

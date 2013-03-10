@@ -24,10 +24,6 @@ public class BlockSkyrGrass extends Block
         super(par1, Material.grass);
         this.setTickRandomly(true);
     }
-    
-	public String getTextureFile(){
-		return SkyrRef.block;
-	}
 	
     @SideOnly(Side.CLIENT)
     public int getBlockTextureFromSideAndMetadata(int par1, int par2)

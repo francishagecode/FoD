@@ -45,9 +45,4 @@ public class BlockLuxillian extends Block {
         }
        
     }
-    
-	public String getTextureFile(){
-		return SkyrRef.block;
-	}
-	
 }

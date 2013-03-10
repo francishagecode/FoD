@@ -41,7 +41,6 @@ public class FOD {
 			
 		}
 	}
-	
 	@Init
 	public void start(FMLInitializationEvent fml){
 		baseConfig.startConfig(baseConfigFile);

@@ -52,8 +52,4 @@ public class BlockCorruptedStoneSeed extends Block {
     {
         return 6;
     }	
-	
-	public String getTextureFile(){
-		return SkyrRef.block;
-	}
 }

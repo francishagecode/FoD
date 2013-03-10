@@ -26,10 +26,6 @@ public class BlockSkyrLog extends Block
         super(par1, Material.wood);
         this.setRequiresSelfNotify();
     }
-    
-	public String getTextureFile(){
-		return SkyrRef.block;
-	}
 
     /**
      * The type of render function that is called for this block

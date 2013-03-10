@@ -29,10 +29,6 @@ public class BlockSkyweed extends BlockFlower
         this.setRequiresSelfNotify();
     }
 	
-	public String getTextureFile(){
-		return SkyrRef.block;
-	}
-	
 	public void updateTick(World par1World, int par2, int par3, int par4, Random par5Random)
     {
         super.updateTick(par1World, par2, par3, par4, par5Random);
